@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/idMaterialCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/cambo"
+            android:textSize="14dp"
+            android:text="This is a task that has to be completed. "
+            android:paddingHorizontal="8dp"
+            android:textColor="#040E47"
+            />
+
+            <TextView
+                android:id="@+id/todo_list_task_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idMaterialCheckBox"
+                android:text="I am going to market"
+                android:paddingStart="40dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/cambo"
+                android:textColor="#040E47"
+                />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
